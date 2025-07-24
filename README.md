@@ -11,8 +11,11 @@
 - 🧠 **Personal Records**: Automatically detect and highlight PRs
 - 🗂️ **Exercise Library** (coming soon)
 - 📊 **Analytics Dashboard** (coming soon)
+- features like choose prefrence weight gain weight loss , muscle gain etc all this things are yet to come this gonna be mega project
+- 
 
 ---
+
 
 ## 🛠️ Tech Stack
 
