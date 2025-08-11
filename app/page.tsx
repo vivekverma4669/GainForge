@@ -33,7 +33,7 @@ export default function AuthPage() {
             <div className="p-3 gradient-bg rounded-xl neon-glow">
               <i className="ri-fire-line w-8 h-8 flex items-center justify-center text-white"></i>
             </div>
-            <h1 className="text-3xl font-black bebas tracking-wide gradient-text">GAINFORGE</h1>
+            <h1 className="text-3xl font-black text-white bebas tracking-wide gradient-text">GAINFORGE</h1>
           </div>
           <p className="text-gray-600 dark:text-gray-400">
             {isLogin ? 'Welcome back, warrior!' : 'Join the forge and start your journey!'}
@@ -45,21 +45,19 @@ export default function AuthPage() {
           <div className="flex mb-6">
             <button
               onClick={() => setIsLogin(true)}
-              className={`flex-1 py-2 text-sm font-semibold rounded-l-lg transition-all duration-300 ${
-                isLogin
-                  ? 'gradient-bg text-white'
-                  : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-              }`}
+              className={`flex-1 py-2 text-sm font-semibold rounded-l-lg transition-all duration-300 ${isLogin
+                ? 'gradient-bg text-white'
+                : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                }`}
             >
               LOGIN
             </button>
             <button
               onClick={() => setIsLogin(false)}
-              className={`flex-1 py-2 text-sm font-semibold rounded-r-lg transition-all duration-300 ${
-                !isLogin
-                  ? 'gradient-bg text-white'
-                  : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-              }`}
+              className={`flex-1 py-2 text-sm font-semibold rounded-r-lg transition-all duration-300 ${!isLogin
+                ? 'gradient-bg text-white'
+                : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                }`}
             >
               SIGN UP
             </button>
